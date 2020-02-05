@@ -1,3 +1,18 @@
+body{
+	height: 100%;
+	background: rgb(36, 36, 39) !important;
+	color: #ececec;
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.table{
+	color: #ececec;
+}
+
 .bg-dark{
 	background: rgb(23, 24, 25) !important;
 }

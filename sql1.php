@@ -17,7 +17,7 @@
 	<meta name="author" content="">
 	<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-	<title>Dashboard Template for Bootstrap</title>
+	<title>Admin Panel</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.css" rel="stylesheet">
