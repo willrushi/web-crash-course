@@ -17,7 +17,7 @@
 	<meta name="author" content="">
 	<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-	<title>Admin Panel</title>
+	<title>SafeLogin (Admins Only)</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.css" rel="stylesheet">

@@ -1,5 +1,8 @@
 <div class="row" style="justify-content:center;padding-top:50px;">
-			<b>Please enter admin credentials to log in.</b>
+	<h2>SafeLogin</h2>
+</div>
+<div class="row" style="justify-content:center;">
+	<b>Please enter admin credentials to log in.</b>
 </div>
 <div class="row" style="padding-top:50px;">
 	<div class="col-5"></div>
