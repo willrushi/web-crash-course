@@ -2,10 +2,6 @@
 	session_start();
 	include_once "db/db_connect.php";
 	
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
-	
 ?>
 
 <!doctype html>
@@ -34,7 +30,7 @@
 	?>
 
 	<div class="row" style="margin-top:50px;justify-content:center;">
-		<h2>IP address lookup</h2>
+		<h2>Domain to IP address lookup</h2>
 	</div>
 	<div class="row">
 		<div class="col-4">
@@ -42,8 +38,8 @@
 		<div class="col-4" style="margin-top: 30px;">
 			<form action="commandinjection.php" method="POST">
 				<div class="form-group">
-					<label for="name">IP to query</label>
-					<input name="command" type="text" class="form-control" id="name" placeholder="Enter IP">
+					<label for="name">Domain to query</label>
+					<input name="command" type="text" class="form-control" id="name" placeholder="Enter domain">
 				</div>
 				<button type="submit" class="btn btn-primary">Search</button>
 			</form>	

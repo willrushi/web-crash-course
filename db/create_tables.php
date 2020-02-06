@@ -21,7 +21,12 @@
 			INSERT INTO credit_cards(name, card_number) VALUES ('Peter Eden', '4715-7532-8524-2921');
 			INSERT INTO credit_cards(name, card_number) VALUES ('Mamoun Qasem', '1337-1337-6969-4200');
 			INSERT INTO credit_cards(name, card_number) VALUES ('John Wyburn', '5218-2142-0121-2911');
-			INSERT INTO credit_cards(name, card_number) VALUES ('Ross Davies', '1502-5219-2212-9292');";
+			INSERT INTO credit_cards(name, card_number) VALUES ('Ross Davies', '1502-5219-2212-9292');
+			CREATE TABLE IF NOT EXISTS chatroom(
+				name VARCHAR(20),
+				message VARCHAR(500),
+				time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+			);";
 
 	echo $sql."<br><br>";
 

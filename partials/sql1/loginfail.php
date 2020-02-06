@@ -21,5 +21,5 @@
 	</div>
 </div>
 <div class="row" style="justify-content:center;">
-	<p style="color:red;">ERROR: Incorrect credentials.</p>
+	<h3 style="color:red;padding-top:20px;">ERROR: Incorrect credentials.</h3>
 </div>
