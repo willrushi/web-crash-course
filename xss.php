@@ -34,31 +34,18 @@
 		<h2>SecureChat v9000</h2>
 	</div>
 	<div class="row">
-		<div class="col-4">
+		<div class="col-3">
 		</div>
-		<div class="col-4" style="margin-top: 30px;">
-			<form action="pathtraversal.php" method="POST">
-				<div class="form-group">
-					<label for="picture_url">Choose a picture</label>
-					<select name="picture_url" class="form-control" id="pictureSelect">
-					<option>birthday_seal.png</option>
-					<option>seal_tongue.png</option>
-					<option>sleeping_seal.png</option>
-					</select>
-				</div>
-				<button type="submit" class="btn btn-primary">Search</button>
+		<div class="col-6" style="margin-top: 30px;">
+			<form action="xss.php" class="row" method="POST">
+				<div class="form-group" style="width:80%;margin-bottom:0px;margin-right:-10px">
+					<input type="text" name="name" style="width:30%;height:100%" placeholder="Name"></input><!--
+				--><input type="text" name="message" style="width:69%;height:100%;" placeholder="Enter message"></input><!--
+				--></div><!--
+			--><button type="submit" class="btn btn-primary" style="width:20%;height:38px;">Send</button>
 			</form>	
 		</div>
 	</div>
-	<div class="row" style="margin-top:50px;">
-	<div class="col-4"></div>
-	<div class="col-4">
-		<?php
-		if($file){
-			echo "<img src='getimage.php?file=images/$file' width='600px'>";
-		}
-		?>
-	</div>
-	</div>
+	
   </body>
 </html>
